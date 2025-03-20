@@ -1,0 +1,15 @@
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\bin\Debug\net8.0\ToDoRepositories.deps.json
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\bin\Debug\net8.0\ToDoRepositories.runtimeconfig.json
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\bin\Debug\net8.0\ToDoRepositories.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\bin\Debug\net8.0\ToDoRepositories.pdb
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.csproj.AssemblyReference.cache
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.AssemblyInfoInputs.cache
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.AssemblyInfo.cs
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.csproj.CoreCompileInputs.cache
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.sourcelink.json
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\refint\ToDoRepositories.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.pdb
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ToDoRepositories.genruntimeconfig.cache
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoRepositories\obj\Debug\net8.0\ref\ToDoRepositories.dll
