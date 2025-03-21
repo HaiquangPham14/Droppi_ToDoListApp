@@ -1,5 +1,8 @@
-﻿using Microsoft.AspNetCore.Http;
+﻿using Azure;
+using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
 using ToDoRepositories.DTO.Request;
 using ToDoRepositories.DTO.Response;
 using ToDoRepositories.Interface;
@@ -12,16 +15,26 @@ namespace ToDoListAPI.Controllers
     public class TaskDependenciesController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
-
-        public TaskDependenciesController(IUnitOfWork unitOfWork)
+        private readonly IDistributedCache _cache;
+        private const int CACHE_EXPIRATION_MINUTES = 15;
+        public TaskDependenciesController(IUnitOfWork unitOfWork, IDistributedCache cache)
         {
             _unitOfWork = unitOfWork;
+            _cache = cache;
         }
 
         // GET: api/v1/TaskDependencies
         [HttpGet]
-        public ActionResult<IEnumerable<TaskDependencyResponse>> GetTaskDependencies(int pageIndex = 1, int pageSize = 20)
+        public async Task<ActionResult<IEnumerable<TaskDependencyResponse>>> GetTaskDependencies(int pageIndex = 1, int pageSize = 20)
         {
+            string cacheKey = $"TaskDependency_Page{pageIndex}_Size{pageSize}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                var cachedTaskDependency = JsonConvert.DeserializeObject<List<TaskDependencyResponse>>(cachedData);
+                return Ok(cachedTaskDependency);
+            }
             var dependencies = _unitOfWork.TaskDependencyRepository.Get(
                 pageIndex: pageIndex,
                 pageSize: pageSize)
@@ -31,14 +44,34 @@ namespace ToDoListAPI.Controllers
                     TaskId = dep.TaskId,
                     DependentTaskId = dep.DependentTaskId,
                 }).ToList();
-
+            foreach (var d in dependencies)
+            {
+                string cacheKey2 = $"TaskDependency_{d.Id}";
+                await _cache.SetStringAsync(cacheKey2, JsonConvert.SerializeObject(d), new DistributedCacheEntryOptions
+                {
+                    AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+                });
+            }
+            var serializedTaskDependencies = JsonConvert.SerializeObject(dependencies);
+            await _cache.SetStringAsync(cacheKey, serializedTaskDependencies, new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
             return Ok(dependencies);
         }
 
         // GET: api/v1/TaskDependencies/{id}
         [HttpGet("{id}")]
-        public ActionResult<TaskDependencyResponse> GetTaskDependency(int id)
+        public async Task<ActionResult<TaskDependencyResponse>> GetTaskDependency(int id)
         {
+            string cacheKey = $"TaskDependency_{id}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                var cachedTaskDependency = JsonConvert.DeserializeObject<TaskDependencyResponse>(cachedData);
+                return Ok(cachedTaskDependency);
+            }
             var dependency = _unitOfWork.TaskDependencyRepository.GetByID(id);
 
             if (dependency == null)
@@ -50,7 +83,10 @@ namespace ToDoListAPI.Controllers
                 TaskId = dependency.TaskId,
                 DependentTaskId = dependency.DependentTaskId,
             };
-
+            await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(response), new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
             return Ok(response);
         }
 
@@ -83,6 +119,13 @@ namespace ToDoListAPI.Controllers
                 DependentTaskId = taskDependency.DependentTaskId
             };
 
+            string cacheKey = $"TaskDependency_{response.Id}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+            await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(response), new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
+
             return CreatedAtAction(nameof(GetTaskDependency), new { id = taskDependency.Id }, response);
         }
 
@@ -108,6 +151,13 @@ namespace ToDoListAPI.Controllers
 
             _unitOfWork.TaskDependencyRepository.Update(existingDependency);
             _unitOfWork.Save();
+
+            string cacheKey = $"TaskDependency_{id}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+            await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(existingDependency), new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
 
             return NoContent();
         }
@@ -161,6 +211,8 @@ namespace ToDoListAPI.Controllers
 
             _unitOfWork.TaskDependencyRepository.Delete(dependency);
             _unitOfWork.Save();
+
+            await _cache.RemoveAsync($"TaskDependency_{id}");
 
             return NoContent();
         }

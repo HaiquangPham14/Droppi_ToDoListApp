@@ -18,7 +18,7 @@ namespace ToDoListAPI.Controllers
     {
         private readonly IUnitOfWork _unitOfWork;
         private readonly IDistributedCache _cache;
-        private const int CACHE_EXPIRATION_MINUTES = 5;
+        private const int CACHE_EXPIRATION_MINUTES = 15;
         public TaskItemsController(IUnitOfWork unitOfWork, IDistributedCache cache)
         {
             _unitOfWork = unitOfWork;
