@@ -27,6 +27,10 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
     {
       "ConnectionStrings": {
         "DefaultConnection": "Server=your_server;Database=your_database;User Id=your_user;Password=your_password;"
+      },
+      "Redis": {
+        "Configuration": "your_server",
+        "Instancename": "your_cache_name"
       }
     }
     ```
@@ -39,6 +43,8 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
     dotnet add package Microsoft.VisualStudio.Azure.Containers.Tools.Targets -v 1.21.0
     dotnet add package Microsoft.VisualStudio.Web.CodeGeneration.Design -v 8.0.7
     dotnet add package Swashbuckle.AspNetCore -v 6.6.2
+    dotnet add package StackExchange.Redis
+    dotnet add package Microsoft.Extensions.Caching.StackExchangeRedis
     ```
 5.  Apply migrations and update the database:
     ```bash
@@ -81,6 +87,8 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
 
 * Integrate user authentication and advanced authorization.
 * Develop a frontend interface for a better user experience.
+* Create a notification system for upcoming/overdue tasks
+* Implement a background job scheduler for periodic tasks
   
 🤝 **Contribution**
 
