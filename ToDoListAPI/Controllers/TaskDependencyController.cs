@@ -42,7 +42,7 @@ namespace ToDoListAPI.Controllers
                     int skip = (currentPage - 1) * pageSize;
                     int take = pageSize;
                     var dependencies = _unitOfWork.TaskDependencyRepository.Get()
-                        .OrderByDescending(taskdependency => taskdependency)
+                        .OrderByDescending(taskdependency => taskdependency.Id)
                         .Skip(skip)
                         .Take(take)
                         .Select(dep => new TaskDependencyResponse
