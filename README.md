@@ -59,13 +59,18 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
 
 📄 **API Endpoints**
 
-| HTTP Method | Endpoint                 | Description                         |
-| :---------- | :----------------------- | :---------------------------------- |
-| GET         | `/api/v1/TaskItems`      | Get a paginated list of tasks       |
-| GET         | `/api/v1/TaskItems/{id}` | Get task details by ID              |
-| POST        | `/api/v1/TaskItems`      | Create a new task                   |
-| PUT         | `/api/v1/TaskItems/{id}` | Update task details                 |
-| DELETE      | `/api/v1/TaskItems/{id}` | Delete a task by ID                 |
+| HTTP Method | Endpoint                     | Description                                  |
+| :---------- | :--------------------------- | :------------------------------------------- |
+| GET         | `/api/v1/TaskItems`          | Get a paginated list of tasks                |
+| GET         | `/api/v1/TaskItems/{id}`     | Get task details by ID                       |
+| POST        | `/api/v1/TaskItems`          | Create a new task                            |
+| PUT         | `/api/v1/TaskItems/{id}`     | Update task details                          |
+| DELETE      | `/api/v1/TaskItems/{id}`     | Delete a task by ID                          |
+| POST        | `/api/v1/TaskDependencies`     | Create a new task dependency                 |
+| GET         | `/api/v1/TaskDependencies/{id}` | Get task dependency details by ID            |
+| GET         | `/api/v1/TaskDependencies/task/{taskId}` | Get dependencies for a specific task        |
+| PUT         | `/api/v1/TaskDependencies/{id}` | Update task dependency details               |
+| DELETE      | `/api/v1/TaskDependencies/{id}` | Delete a task dependency by ID               |
 
 🔎 **Caching Strategy**
 
