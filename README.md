@@ -53,6 +53,7 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
 🔥 **Features**
 
 * CRUD operations (Create, Read, Update, Delete) for Task Items.
+* Data caching with Redis to enhance performance.
 * Supports pagination for large data queries.
 * Exception handling and data validation.
 
@@ -66,13 +67,15 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
 | PUT         | `/api/v1/TaskItems/{id}` | Update task details                 |
 | DELETE      | `/api/v1/TaskItems/{id}` | Delete a task by ID                 |
 
+🔎 **Caching Strategy**
+
+* Uses Redis Cache to store frequently accessed data.
+* Cache is updated on Create, Update, and Delete operations.
 
 🚀 **Future Development**
 
 * Integrate user authentication and advanced authorization.
 * Develop a frontend interface for a better user experience.
-* Uses Redis Cache to store frequently accessed data.
-* Cache is updated on Create, Update, and Delete operations.
   
 🤝 **Contribution**
 
