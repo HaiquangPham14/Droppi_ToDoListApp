@@ -16,7 +16,7 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
 
 1.  Clone the repository:
     ```bash
-    git clone <repository_url>
+    git clone https://github.com/HaiquangPham14/ToDoListApp.git
     ```
 2.  Navigate to the project directory:
     ```bash
