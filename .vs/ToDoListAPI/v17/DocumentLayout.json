@@ -3,20 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\controllers\\taskdependencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\taskdependencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -90,7 +86,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,7 +174,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Dockerfile",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Dockerfile",
               "RelativeDocumentMoniker": "ToDoListAPI\\Dockerfile",
@@ -192,18 +188,6 @@
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "TaskDependencyController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskDependencyController.cs",
-              "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TaskDependencyController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskDependencyController.cs",
-              "RelativeToolTip": "ToDoListAPI\\Controllers\\TaskDependencyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAwBkAAAAQAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T14:35:23.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Program.cs",
               "RelativeDocumentMoniker": "ToDoListAPI\\Program.cs",
@@ -211,12 +195,11 @@
               "RelativeToolTip": "ToDoListAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:26:10.912Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:26:10.912Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 6,
               "Title": "UnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Implement\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Implement\\UnitOfWork.cs",
@@ -228,7 +211,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 7,
               "Title": "TaskDependencyResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
@@ -240,7 +223,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 8,
               "Title": "TaskItem.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\TaskItem.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Models\\TaskItem.cs",
@@ -252,7 +235,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 9,
               "Title": "PriorityLevel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Enum\\PriorityLevel.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Enum\\PriorityLevel.cs",
@@ -264,7 +247,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ToDoListAPI\\appsettings.json",
@@ -276,19 +259,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 0,
               "Title": "TaskItemsController.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskItemsController.cs",
               "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskItemsController.cs",
               "RelativeToolTip": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAMMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAKAAAAAAAAAAAAAcwL0AAAA3AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T14:13:15.19Z"
+              "WhenOpened": "2025-03-20T14:13:15.19Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 10,
               "Title": "TaskLevel.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Enum\\TaskLevel.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Enum\\TaskLevel.cs",
@@ -300,7 +284,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 5,
               "Title": "ToDoListDBContext.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\ToDoListDBContext.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Models\\ToDoListDBContext.cs",
@@ -312,7 +296,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 4,
               "Title": "20250320134201_Initial.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
@@ -324,7 +308,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 11,
               "Title": "ToDoListAPI.http",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\ToDoListAPI.http",
               "RelativeDocumentMoniker": "ToDoListAPI\\ToDoListAPI.http",
@@ -336,7 +320,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 12,
               "Title": "GenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Implement\\GenericRepository.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Implement\\GenericRepository.cs",
@@ -348,7 +332,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 13,
               "Title": "IGenericRepository.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Interface\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Interface\\IGenericRepository.cs",
@@ -360,7 +344,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 14,
               "Title": "TaskDependency.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\TaskDependency.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Models\\TaskDependency.cs",
@@ -372,7 +356,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 15,
               "Title": "TaskItemResponse.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
@@ -384,7 +368,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 16,
               "Title": "TaskItemRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
@@ -396,7 +380,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 17,
               "Title": "TaskDependencyRequest.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
@@ -408,7 +392,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 18,
               "Title": "IUnitOfWork.cs",
               "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Interface\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Interface\\IUnitOfWork.cs",
