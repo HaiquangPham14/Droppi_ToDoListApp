@@ -18,9 +18,9 @@ ToDoListApp is a RESTful API built with ASP.NET Core that helps users effectivel
     ```bash
     git clone https://github.com/HaiquangPham14/ToDoListApp.git
     ```
-2.  Navigate to the project directory:
+2. Open MSSQL and execute the command:
     ```bash
-    cd ToDoListApp
+    CREATE DATABASE your_database;
     ```
 3.  Update the connection string in `appsettings.json`:
     ```json
