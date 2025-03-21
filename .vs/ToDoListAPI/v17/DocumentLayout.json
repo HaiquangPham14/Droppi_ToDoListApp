@@ -184,7 +184,7 @@
               "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TaskDependencyController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskDependencyController.cs",
               "RelativeToolTip": "ToDoListAPI\\Controllers\\TaskDependencyController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAA4AAAAAAAAAA==",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T02:28:53.85Z",
               "EditorCaption": ""
@@ -235,8 +235,7 @@
               "RelativeToolTip": "ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T14:16:45.234Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T14:16:45.234Z"
             },
             {
               "$type": "Document",
@@ -284,8 +283,7 @@
               "RelativeToolTip": "ToDoRepositories\\Enum\\TaskLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T13:17:01.054Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-20T13:17:01.054Z"
             },
             {
               "$type": "Document",
@@ -486,7 +484,7 @@
               "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
               "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskItemsController.cs",
               "RelativeToolTip": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
-              "ViewState": "AgIAACUBAAAAAAAAAAAuwEgBAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowDgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-20T14:13:15.19Z",
               "EditorCaption": ""
