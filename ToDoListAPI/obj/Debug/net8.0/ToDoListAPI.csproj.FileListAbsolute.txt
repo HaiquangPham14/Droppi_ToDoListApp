@@ -291,3 +291,9 @@ C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\obj\Debug\net8
 C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.pdb
 C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\obj\Debug\net8.0\ToDoListAPI.genruntimeconfig.cache
 C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\obj\Debug\net8.0\ref\ToDoListAPI.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.Abstractions.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\bin\Debug\net8.0\Microsoft.Extensions.Caching.StackExchangeRedis.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\bin\Debug\net8.0\Microsoft.Extensions.Primitives.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\bin\Debug\net8.0\Pipelines.Sockets.Unofficial.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\bin\Debug\net8.0\StackExchange.Redis.dll
+C:\Users\Admin\Desktop\SE\ToDoApplication\ToDoListApp\ToDoListAPI\bin\Debug\net8.0\System.Diagnostics.DiagnosticSource.dll

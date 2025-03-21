@@ -1,4 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Azure;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Caching.Distributed;
+using Newtonsoft.Json;
+using System.Drawing.Printing;
 using System.Threading.Tasks;
 using ToDoRepositories.DTO;
 using ToDoRepositories.DTO.Request;
@@ -13,19 +17,37 @@ namespace ToDoListAPI.Controllers
     public class TaskItemsController : ControllerBase
     {
         private readonly IUnitOfWork _unitOfWork;
-
-        public TaskItemsController(IUnitOfWork unitOfWork)
+        private readonly IDistributedCache _cache;
+        private const int CACHE_EXPIRATION_MINUTES = 5;
+        public TaskItemsController(IUnitOfWork unitOfWork, IDistributedCache cache)
         {
             _unitOfWork = unitOfWork;
+            _cache = cache;
         }
 
         // GET: api/v1/TaskItems
         [HttpGet]
-        public ActionResult<IEnumerable<TaskItemResponse>> GetTaskItems(int pageIndex = 1, int pageSize = 20)
+        public async Task<ActionResult<IEnumerable<TaskItemResponse>>> GetTaskItems(int pageIndex = 1, int pageSize = 20)
         {
-            var taskItems = _unitOfWork.TaskItemRepository.Get(
-                pageIndex: pageIndex,
-                pageSize: pageSize)
+            string cacheKey = $"TaskItems_Page{pageIndex}_Size{pageSize}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                var cachedTaskItems = JsonConvert.DeserializeObject<List<TaskItemResponse>>(cachedData);
+                return Ok(cachedTaskItems);
+            }
+            int totalTasks = _unitOfWork.TaskItemRepository.Get().Count();
+            int skip = (pageIndex - 1) * pageSize;
+            int take = pageSize;
+            if (skip >= totalTasks)
+            {
+                return Ok(new List<TaskItemResponse>());
+            }
+            var taskItems = _unitOfWork.TaskItemRepository.Get()
+                .OrderByDescending(task => task.Id)
+                .Skip(skip)
+                .Take(take)
                 .Select(task => new TaskItemResponse
                 {
                     Id = task.Id,
@@ -36,13 +58,35 @@ namespace ToDoListAPI.Controllers
                     DueDate = task.DueDate
                 }).ToList();
 
+            foreach (var t in taskItems)
+            {
+                string cacheKey2 = $"TaskItem_{t.Id}";
+                await _cache.SetStringAsync(cacheKey2, JsonConvert.SerializeObject(t), new DistributedCacheEntryOptions
+                {
+                    AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+                });
+            }
+            var serializedTaskItems = JsonConvert.SerializeObject(taskItems);
+            await _cache.SetStringAsync(cacheKey, serializedTaskItems, new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
             return Ok(taskItems);
         }
 
         // GET: api/v1/TaskItems/{id}
         [HttpGet("{id}")]
-        public ActionResult<TaskItemResponse> GetTaskItem(int id)
+        public async Task<ActionResult<TaskItemResponse>> GetTaskItem(int id)
         {
+            string cacheKey = $"TaskItem_{id}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+
+            if (!string.IsNullOrEmpty(cachedData))
+            {
+                var cachedTaskItem = JsonConvert.DeserializeObject<TaskItemResponse>(cachedData);
+                return Ok(cachedTaskItem);
+            }
+
             var task = _unitOfWork.TaskItemRepository.GetByID(id);
 
             if (task == null)
@@ -57,6 +101,11 @@ namespace ToDoListAPI.Controllers
                 Status = task.Status,
                 DueDate = task.DueDate
             };
+
+            await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(response), new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
 
             return Ok(response);
         }
@@ -87,6 +136,12 @@ namespace ToDoListAPI.Controllers
                 DueDate = task.DueDate
             };
 
+            string cacheKey = $"TaskItem_{response.Id}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+            await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(response), new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
             return CreatedAtAction(nameof(GetTaskItem), new { id = task.Id }, response);
         }
 
@@ -108,6 +163,15 @@ namespace ToDoListAPI.Controllers
             _unitOfWork.TaskItemRepository.Update(existingTask);
             _unitOfWork.Save();
 
+            await _cache.RemoveAsync($"TaskItem_{id}");
+
+            string cacheKey = $"TaskItem_{id}";
+            string cachedData = await _cache.GetStringAsync(cacheKey);
+            await _cache.SetStringAsync(cacheKey, JsonConvert.SerializeObject(existingTask), new DistributedCacheEntryOptions
+            {
+                AbsoluteExpirationRelativeToNow = TimeSpan.FromMinutes(CACHE_EXPIRATION_MINUTES)
+            });
+
             return NoContent();
         }
 
@@ -122,6 +186,8 @@ namespace ToDoListAPI.Controllers
 
             _unitOfWork.TaskItemRepository.Delete(task);
             _unitOfWork.Save();
+
+            await _cache.RemoveAsync($"TaskItem_{id}");
 
             return NoContent();
         }

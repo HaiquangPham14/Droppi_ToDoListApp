@@ -15,6 +15,12 @@ var connectionString = builder.Configuration.GetConnectionString("MyDB");
 builder.Services.AddDbContext<ToDoListDBContext>(options =>
     options.UseSqlServer(connectionString));
 builder.Services.AddScoped<IUnitOfWork, UnitOfWork>();
+//redis 
+builder.Services.AddStackExchangeRedisCache(options =>
+{
+    options.Configuration = builder.Configuration.GetSection("Redis:Configuration").Value;
+    options.InstanceName = builder.Configuration.GetSection("Redis:InstanceName").Value;
+});
 
 
 
