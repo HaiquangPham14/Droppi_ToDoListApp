@@ -1,85 +1,85 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\",
+  "WorkspaceRootPath": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\controllers\\taskdependencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\taskdependencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todolistapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\taskitemscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\dto\\response\\taskdependencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todolistapi\\controllers\\taskdependencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\controllers\\taskdependencycontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\dto\\response\\taskdependencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\dto\\response\\taskdependencyresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\enum\\tasklevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\enum\\tasklevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\enum\\tasklevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todolistapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}",
       "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\dockerfile||{8B382828-6202-11D1-8870-0000F87579D2}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\migrations\\20250320134201_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\migrations\\20250320134201_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\migrations\\20250320134201_initial.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\models\\todolistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\models\\todolistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\models\\todolistdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\implement\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\implement\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\implement\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\models\\taskitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\enum\\prioritylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\enum\\prioritylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\enum\\prioritylevel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todolistapi\\todolistapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
+      "AbsoluteMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todolistapi\\todolistapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}",
       "RelativeMoniker": "D:0:0:{69C8E825-E9C9-442D-9F5D-184D91D5DADA}|ToDoListAPI\\ToDoListAPI.csproj|solutionrelative:todolistapi\\todolistapi.http||{5703B403-55E7-4C63-8C88-A8F52C7A45C5}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\implement\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\implement\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\implement\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\interface\\igenericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\models\\taskdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\models\\taskdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\models\\taskdependency.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\dto\\response\\taskitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\dto\\response\\taskitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\dto\\response\\taskitemresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\dto\\request\\taskitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\dto\\request\\taskitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\dto\\request\\taskitemrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\dto\\request\\taskdependencyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\dto\\request\\taskdependencyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\dto\\request\\taskdependencyrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\todoapplication\\todolistapp\\todorepositories\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|c:\\users\\admin\\desktop\\se\\droppiitodoapp\\droppiitodoapp\\todorepositories\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{D168FE2A-F0C7-4001-B205-4975613A1CF4}|ToDoRepositories\\ToDoRepositories.csproj|solutionrelative:todorepositories\\interface\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -90,7 +90,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 337,
-          "SelectedChildIndex": 21,
+          "SelectedChildIndex": 29,
           "Children": [
             {
               "$type": "Bookmark",
@@ -178,13 +178,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "TaskDependencyController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskDependencyController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Controllers\\TaskDependencyController.cs",
               "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TaskDependencyController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskDependencyController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Controllers\\TaskDependencyController.cs",
               "RelativeToolTip": "ToDoListAPI\\Controllers\\TaskDependencyController.cs",
-              "ViewState": "AgIAAA4AAAAAAAAAAAAxwB4AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAB4AAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-21T02:28:53.85Z",
               "EditorCaption": ""
@@ -193,9 +193,9 @@
               "$type": "Document",
               "DocumentIndex": 4,
               "Title": "Dockerfile",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Dockerfile",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Dockerfile",
               "RelativeDocumentMoniker": "ToDoListAPI\\Dockerfile",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Dockerfile",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Dockerfile",
               "RelativeToolTip": "ToDoListAPI\\Dockerfile",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
@@ -205,9 +205,9 @@
               "$type": "Document",
               "DocumentIndex": 5,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Program.cs",
               "RelativeDocumentMoniker": "ToDoListAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Program.cs",
               "RelativeToolTip": "ToDoListAPI\\Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAADAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -217,9 +217,9 @@
               "$type": "Document",
               "DocumentIndex": 9,
               "Title": "UnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Implement\\UnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Implement\\UnitOfWork.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Implement\\UnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Implement\\UnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Implement\\UnitOfWork.cs",
               "RelativeToolTip": "ToDoRepositories\\Implement\\UnitOfWork.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAAAgwCgAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -229,9 +229,9 @@
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "TaskDependencyResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
               "RelativeToolTip": "ToDoRepositories\\DTO\\Response\\TaskDependencyResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAIAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -241,9 +241,9 @@
               "$type": "Document",
               "DocumentIndex": 10,
               "Title": "TaskItem.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\TaskItem.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Models\\TaskItem.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Models\\TaskItem.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\TaskItem.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Models\\TaskItem.cs",
               "RelativeToolTip": "ToDoRepositories\\Models\\TaskItem.cs",
               "ViewState": "AgIAAAMAAAAAAAAAAADwvxsAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -253,9 +253,9 @@
               "$type": "Document",
               "DocumentIndex": 11,
               "Title": "PriorityLevel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Enum\\PriorityLevel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Enum\\PriorityLevel.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Enum\\PriorityLevel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Enum\\PriorityLevel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Enum\\PriorityLevel.cs",
               "RelativeToolTip": "ToDoRepositories\\Enum\\PriorityLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -265,9 +265,9 @@
               "$type": "Document",
               "DocumentIndex": 6,
               "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\appsettings.json",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\appsettings.json",
               "RelativeDocumentMoniker": "ToDoListAPI\\appsettings.json",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\appsettings.json",
               "RelativeToolTip": "ToDoListAPI\\appsettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
@@ -275,11 +275,24 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "TaskItemsController.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Controllers\\TaskItemsController.cs",
+              "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\Controllers\\TaskItemsController.cs",
+              "RelativeToolTip": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
+              "ViewState": "AgIAACEAAAAAAAAAAAAowCsAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-20T14:13:15.19Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "TaskLevel.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Enum\\TaskLevel.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Enum\\TaskLevel.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Enum\\TaskLevel.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Enum\\TaskLevel.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Enum\\TaskLevel.cs",
               "RelativeToolTip": "ToDoRepositories\\Enum\\TaskLevel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAXAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -289,9 +302,9 @@
               "$type": "Document",
               "DocumentIndex": 8,
               "Title": "ToDoListDBContext.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\ToDoListDBContext.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Models\\ToDoListDBContext.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Models\\ToDoListDBContext.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\ToDoListDBContext.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Models\\ToDoListDBContext.cs",
               "RelativeToolTip": "ToDoRepositories\\Models\\ToDoListDBContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -301,9 +314,9 @@
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "20250320134201_Initial.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
               "RelativeToolTip": "ToDoRepositories\\Migrations\\20250320134201_Initial.cs",
               "ViewState": "AgIAABAAAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -313,9 +326,9 @@
               "$type": "Document",
               "DocumentIndex": 12,
               "Title": "ToDoListAPI.http",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\ToDoListAPI.http",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\ToDoListAPI.http",
               "RelativeDocumentMoniker": "ToDoListAPI\\ToDoListAPI.http",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\ToDoListAPI.http",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoListAPI\\ToDoListAPI.http",
               "RelativeToolTip": "ToDoListAPI\\ToDoListAPI.http",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003502|",
@@ -325,9 +338,9 @@
               "$type": "Document",
               "DocumentIndex": 13,
               "Title": "GenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Implement\\GenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Implement\\GenericRepository.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Implement\\GenericRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Implement\\GenericRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Implement\\GenericRepository.cs",
               "RelativeToolTip": "ToDoRepositories\\Implement\\GenericRepository.cs",
               "ViewState": "AgIAAFsAAAAAAAAAAAAwwHwAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -337,9 +350,9 @@
               "$type": "Document",
               "DocumentIndex": 14,
               "Title": "IGenericRepository.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Interface\\IGenericRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Interface\\IGenericRepository.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Interface\\IGenericRepository.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Interface\\IGenericRepository.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Interface\\IGenericRepository.cs",
               "RelativeToolTip": "ToDoRepositories\\Interface\\IGenericRepository.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -349,9 +362,9 @@
               "$type": "Document",
               "DocumentIndex": 15,
               "Title": "TaskDependency.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\TaskDependency.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Models\\TaskDependency.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Models\\TaskDependency.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Models\\TaskDependency.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Models\\TaskDependency.cs",
               "RelativeToolTip": "ToDoRepositories\\Models\\TaskDependency.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAfAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -361,9 +374,9 @@
               "$type": "Document",
               "DocumentIndex": 16,
               "Title": "TaskItemResponse.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
               "RelativeToolTip": "ToDoRepositories\\DTO\\Response\\TaskItemResponse.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABMAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -373,9 +386,9 @@
               "$type": "Document",
               "DocumentIndex": 17,
               "Title": "TaskItemRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
               "RelativeToolTip": "ToDoRepositories\\DTO\\Request\\TaskItemRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -385,9 +398,9 @@
               "$type": "Document",
               "DocumentIndex": 18,
               "Title": "TaskDependencyRequest.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
               "RelativeToolTip": "ToDoRepositories\\DTO\\Request\\TaskDependencyRequest.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -397,9 +410,9 @@
               "$type": "Document",
               "DocumentIndex": 19,
               "Title": "IUnitOfWork.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Interface\\IUnitOfWork.cs",
+              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Interface\\IUnitOfWork.cs",
               "RelativeDocumentMoniker": "ToDoRepositories\\Interface\\IUnitOfWork.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\Interface\\IUnitOfWork.cs",
+              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\Interface\\IUnitOfWork.cs",
               "RelativeToolTip": "ToDoRepositories\\Interface\\IUnitOfWork.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -454,40 +467,6 @@
             {
               "$type": "Bookmark",
               "Name": "ST:24:0:{e8034f19-ab72-4f06-83fd-f6832b41aa63}"
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "71bae97d-2682-4c53-a790-e8da79f6292f",
-        "Display": 1,
-        "X": 1129,
-        "Y": 2,
-        "Width": 2064,
-        "Height": 1324,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "TaskItemsController.cs",
-              "DocumentMoniker": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskItemsController.cs",
-              "RelativeDocumentMoniker": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
-              "ToolTip": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoListAPI\\Controllers\\TaskItemsController.cs",
-              "RelativeToolTip": "ToDoListAPI\\Controllers\\TaskItemsController.cs",
-              "ViewState": "AgIAACEAAAAAAAAAAAAowDgBAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T14:13:15.19Z",
-              "EditorCaption": ""
             }
           ]
         }

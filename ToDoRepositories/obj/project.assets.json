@@ -4413,11 +4413,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\ToDoRepositories.csproj",
+      "projectUniqueName": "C:\\Users\\Admin\\Desktop\\DDDDDDDD\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\ToDoRepositories.csproj",
       "projectName": "ToDoRepositories",
-      "projectPath": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\ToDoRepositories.csproj",
+      "projectPath": "C:\\Users\\Admin\\Desktop\\DDDDDDDD\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\ToDoRepositories.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Admin\\Desktop\\SE\\ToDoApplication\\ToDoListApp\\ToDoRepositories\\obj\\",
+      "outputPath": "C:\\Users\\Admin\\Desktop\\DDDDDDDD\\DroppiiToDoApp\\DroppiiTodoApp\\ToDoRepositories\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
